@@ -71,7 +71,7 @@ From the Watson Studio home page, select `Creat a project`, then select the `Cre
 
 To view your notebooks, select `Notebooks` in the project `Assets` list. To run a notebook, simply click on the `edit` icon listed in the row associated with the notebook in the `Notebooks` list.
 
-![ASL notebook](https://github.com/IBM/ASL-Pytorch/blob/master/images/note.png)
+![notebook](/res/training%20model.png)
 
 Follow notebook instructions to load data and train the model.  
 

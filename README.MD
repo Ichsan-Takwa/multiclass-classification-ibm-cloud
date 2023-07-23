@@ -46,14 +46,14 @@ We will use Watson studio to run this notebook, Watson studio is available throu
 * From the catalog create a <a href="https://cloud.ibm.com/catalog/services/watson-studio">watson studio</a> with standard plan or more and make sure the region is dallas to enable GPU environment.  
 * Alternatively, you can use the ```ASL_PyTorch-CPU``` Notebook if you are a Watson Studio Lite Plan user
 
-![CREATE WS](https://github.com/Ichsan-Takwa/multiclass-classification-ibm-cloud/blob/main/res/create%20watson%20studio.mov)  
+![CREATE WS](/res/create%20watson%20studio.gif)  
 
 ### 2. Create a new project
 
 
 From the Watson Studio home page, select `Creat a project`, then select the `Create an empty project` and choose a name for your project then press create .
 
-![Create Project](https://github.com/Ichsan-Takwa/multiclass-classification-ibm-cloud/blob/main/res/create%20a%20project.mov)  
+![Create Project](/res/create%20a%20project.gif)  
 
 * create a watson studio project <a href="https://www.youtube.com/watch?v=-CUi8GezG1I">see tutorial here.</a>  
 
@@ -65,7 +65,7 @@ From the Watson Studio home page, select `Creat a project`, then select the `Cre
     use this URL for GPU supported notebook: https://github.com/IBM/ASL-Pytorch/blob/master/ASL-GPU.ipynb \
     or use this URL for CPU notebook(LITE) : https://github.com/IBM/ASL-Pytorch/blob/master/ASL-CPU.ipynb
 
-![NOTEBOOK](https://github.com/Ichsan-Takwa/multiclass-classification-ibm-cloud/blob/main/res/create%20the%20notebook.mov)
+![NOTEBOOK](/res/create%20the%20notebook.gif)
 
 ### 4. Run the notebook 
 

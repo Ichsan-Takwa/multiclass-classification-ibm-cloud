@@ -46,14 +46,14 @@ We will use Watson studio to run this notebook, Watson studio is available throu
 * From the catalog create a <a href="https://cloud.ibm.com/catalog/services/watson-studio">watson studio</a> with standard plan or more and make sure the region is dallas to enable GPU environment.  
 * Alternatively, you can use the ```ASL_PyTorch-CPU``` Notebook if you are a Watson Studio Lite Plan user
 
-![CREATE WS](/res/create%20watson%20studio.mov)  
+![CREATE WS](https://github.com/Ichsan-Takwa/multiclass-classification-ibm-cloud/blob/main/res/create%20watson%20studio.mov)  
 
 ### 2. Create a new project
 
 
 From the Watson Studio home page, select `Creat a project`, then select the `Create an empty project` and choose a name for your project then press create .
 
-![Create Project](/res/create%20a%20project.mov)  
+![Create Project](https://github.com/Ichsan-Takwa/multiclass-classification-ibm-cloud/blob/main/res/create%20a%20project.mov)  
 
 * create a watson studio project <a href="https://www.youtube.com/watch?v=-CUi8GezG1I">see tutorial here.</a>  
 
@@ -65,7 +65,7 @@ From the Watson Studio home page, select `Creat a project`, then select the `Cre
     use this URL for GPU supported notebook: https://github.com/IBM/ASL-Pytorch/blob/master/ASL-GPU.ipynb \
     or use this URL for CPU notebook(LITE) : https://github.com/IBM/ASL-Pytorch/blob/master/ASL-CPU.ipynb
 
-![NOTEBOOK](/res/create%20the%20notebook.mov)
+![NOTEBOOK](https://github.com/Ichsan-Takwa/multiclass-classification-ibm-cloud/blob/main/res/create%20the%20notebook.mov)
 
 ### 4. Run the notebook 
 
@@ -84,12 +84,14 @@ run the last model many times to check different samples.
 
 ![Result](/res/confussion%20matrix.png)
 
-![rain](/res/sample_rain.png)
-![snow](/res/sample_snow.png)
-![sandstorm](/res/sample_sandstorm.png)
-![fogsmoke](/res/sample_fogsmog.png)
-![lightning](/res/sample_lightning.png)
-
+![rain](/res/pred_rain.png)
+![snow](/res/pred_snow.png)
+![sandstorm](/res/pred_sandstorm.png)
+![fogsmoke](/res/pred_fogsmog.png)
+![lightning](/res/pred_lightning.png)
+![glaze](/res/pred_glaze.png)
+![rime](/res/pred_rime.png)
+![frost](/res/pred_frost.png)
 
 ### check notebook result 
 
@@ -97,13 +99,13 @@ run the last model many times to check different samples.
 
 # links
 
-* learn more about [Pytorch](https://pytorch.org/)  
+* learn more about [Tensorflow](https://www.tensorflow.org/)  
 * [Create Watson Studio Notebooks](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/creating-notebooks.html)
 * [Learn more about GPU environments](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/gpu-environments.html)
 
 # Learn more
 
-* [Get started with PyTorch ](https://developer.ibm.com/articles/cc-get-started-pytorch/): In this article, you can find an overview of the PyTorch system and learn more about the supported platforms and the benefits of using PyTorch.
+* [Introduction to TensorFlow ](https://developer.ibm.com/articles/transfer-learning-for-deep-learning): In this article, you can find an overview of the Tensorflow .
 
 * [Build models using Jupyter Notebooks in IBM Watson Studio](https://developer.ibm.com/technologies/artificial-intelligence/tutorials/watson-studio-using-jupyter-notebook/)
   
